@@ -26,5 +26,25 @@ bind l select-pane -R
 set -g history-limit 999999999
 ```
 
+### ksh
+
+```
+# $HOME/.profile
+# disable bell in xterm (still needed after Xdefaults edits?)
+xset b off
+```
+
+### xterm
+
+```
+! $HOME/.Xdefaults
+xterm*loginShell:true                                                                                                                                       
+xterm*background: black                                                         
+xterm*foreground: lightgreen                                                    
+xterm*scrollBar: false                                                          
+xterm*visualBell: false 
+```
+
+
 
 Originally scattered around web like https://leonstafford.github.io/notes/keep_your_core_strong_know_your_bsd_linux_tools/
