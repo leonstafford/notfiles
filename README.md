@@ -50,6 +50,8 @@ xterm*faceSize: 10
 ### .cwmrc
 
 ```
+Start terminals maximised
+bind-key CM-Return "xterm -maximized"
 # Bind the keys with the Super modifier - reload with CMS-r
 bind-key CM-1 "jumpapp firefox"
 bind-key CM-2 "jumpapp chromium-browser"
