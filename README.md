@@ -38,11 +38,13 @@ xset b off
 
 ```
 ! $HOME/.Xdefaults
-xterm*loginShell:true                                                                                                                                       
+xterm*loginShell:true
 xterm*background: black                                                         
 xterm*foreground: lightgreen                                                    
 xterm*scrollBar: false                                                          
 xterm*visualBell: false 
+xterm*faceName: Monospace
+xterm*faceSize: 10
 ```
 
 ### .cwmrc
