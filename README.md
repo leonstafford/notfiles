@@ -50,8 +50,19 @@ xterm*faceSize: 10
 ### .cwmrc
 
 ```
-Start terminals maximised
+# Start terminals maximised
 bind-key CM-Return "xterm -maximized"
+
+# rm white border for real fullscreen effect
+borderwidth 0
+
+# assign preset volume levels
+bind-key CM-y "sndioctl output.level=0.4"
+bind-key CM-u "sndioctl output.level=0.5"
+bind-key CM-i "sndioctl output.level=0.6"
+bind-key CM-o "sndioctl output.level=0.7"
+bind-key CM-p "sndioctl output.level=0.8"
+
 # Bind the keys with the Super modifier - reload with CMS-r
 bind-key CM-1 "jumpapp firefox"
 bind-key CM-2 "jumpapp chromium-browser"
